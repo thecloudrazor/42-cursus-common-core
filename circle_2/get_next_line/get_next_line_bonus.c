@@ -6,7 +6,7 @@
 /*   By: emgenc <emgenc@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/29 11:36:00 by emgenc            #+#    #+#             */
-/*   Updated: 2025/01/03 13:53:13 by emgenc           ###   ########.fr       */
+/*   Updated: 2025/01/03 20:21:52 by emgenc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ static void	ft_assign(char **retain, char **line)
 
 char	*get_next_line(int fd)
 {
-	static char	*retain[1903];
+	static char	*retain[1903];	// En büyük Beşiktaş!
 	char		*line;
 
 	if (fd < 0 || BUFFER_SIZE < 0 || fd > 1903)
